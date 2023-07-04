@@ -52,10 +52,9 @@ nav h1::selection {
 main {
     background: rgb(42,47,79);
     background: linear-gradient(151deg, rgba(42,47,79,1) 0%, rgba(145,127,179,1) 53%, rgba(229,190,236,1) 100%);
-    padding: 5% 0;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    padding-top: 100px;
+    padding: 50px 0;
 }
 
 section {
@@ -88,7 +87,6 @@ button {
     box-shadow: rgb(213, 213, 186) 5px 4px;
     border-radius: 15px;
     height: 80px;
-    margin: 3px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -96,8 +94,7 @@ button {
 }
 
 button:hover {
-    opacity: 0.5;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 300ms linear;
 }
 
@@ -125,16 +122,15 @@ button:hover {
 
 @media (max-width: 600px) {
     main {
-        padding-top: 10px;
+        padding: 10px;
     }
     section {
-        width: 280px;
-        height: 200px;
+        width: 270px;
+        height: 150px;
     }
     #screen {
-        width: 270px;
+        width: 260px;
     }
-
 }
 
 footer {
